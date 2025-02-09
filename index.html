@@ -14,22 +14,24 @@
 
 		<div
 			id="colorBox"
+			data-testid="colorBox"
 			class="w-48 h-48 mb-8 border-4 border-gray-300 shadow-lg"
 		></div>
 
-		<p class="text-xl mb-6">Guess the correct color!</p>
+		<p data-testid="gameInstructions" class="text-xl mb-6">Guess the correct color!</p>
 
 		<div
 			id="colorOptions"
 			class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8"
 		></div>
 
-		<p id="gameStatus" class="text-2xl font-semibold mb-4 opacity-0"></p>
+		<p id="gameStatus" data-testid="gameStatus" class="text-2xl font-semibold mb-4 opacity-0"></p>
 
-		<p id="score" class="text-xl mb-6">Score: 0</p>
+		<p id="score" data-testid="score" class="text-xl mb-6">Score: 0</p>
 
 		<button
 			id="newGameButton"
+			data-testid="newGameButton"
 			class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
 		>
 			New Game

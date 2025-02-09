@@ -33,6 +33,7 @@ const startNewGame = () => {
 
 	colorOptions.forEach((color) => {
 		const button = document.createElement('button');
+		button.setAttribute('data-testid', 'colorOption');
 		button.style.backgroundColor = color;
     button.style.border = '1px solid rgba(0, 0, 0, 0.35)';
 		button.onclick = () => handleGuess(color);
