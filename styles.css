@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+	transform: scale(1.05);
+}
+
+.opacity-100 {
+	opacity: 1;
+}
+
+.opacity-0 {
+	opacity: 0;
+}
