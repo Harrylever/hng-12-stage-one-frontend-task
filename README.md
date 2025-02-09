@@ -1,1 +1,1 @@
-# Frontend Task for Stage Zero HNG
+# Frontend Task for Stage One HNG
